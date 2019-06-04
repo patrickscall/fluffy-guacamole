@@ -4,4 +4,11 @@
   <artifactId>fluffy-guacamole</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  	<dependencies>
+	  	<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-catalina</artifactId>
+			<version>9.0.20</version>
+		</dependency>
+	</dependencies>
 </project>
